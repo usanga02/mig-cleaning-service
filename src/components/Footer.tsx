@@ -1,5 +1,4 @@
-import React from "react";
-
+import logo from "../assets/Borcelle_clean_footer.png";
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -9,10 +8,12 @@ const Footer = (props: Props) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">MIG</span>
-              </div>
-              <span className="text-xl font-bold">MIG Cleaning Services</span>
+              <img
+                src={logo}
+                alt="logo"
+                width={300}
+                className="cursor-pointer"
+              />
             </div>
             <p className="text-gray-300">
               Professional, eco-friendly cleaning services for homes,
