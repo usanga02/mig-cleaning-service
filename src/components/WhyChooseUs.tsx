@@ -1,5 +1,4 @@
 import { CheckCircle } from "lucide-react";
-import React from "react";
 
 type Props = {};
 
@@ -9,12 +8,12 @@ const WhyChooseUs = (props: Props) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl text-center md:text-4xl font-bold text-gray-900 mb-6">
               Why Choose Us?
             </h2>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-orange-500 mt-1" />
+                <CheckCircle className="w-6 h-6 md:h-8 md:w-8 text-orange-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">
                     Trained and Uniformed Professionals
@@ -27,7 +26,7 @@ const WhyChooseUs = (props: Props) => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-orange-500 mt-1" />
+                <CheckCircle className="w-6 h-6 md:h-8 md:w-8 text-orange-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">
                     Eco-Friendly and Safe Products
@@ -39,7 +38,7 @@ const WhyChooseUs = (props: Props) => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-orange-500 mt-1" />
+                <CheckCircle className="w-6 h-6 md:h-8 md:w-8 text-orange-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900">
                     Flexible Scheduling & Custom Plans

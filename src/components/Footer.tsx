@@ -1,4 +1,4 @@
-import logo from "../assets/Borcelle_clean_footer.png";
+import logo from "../assets/Borcelle_clean.png";
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -7,13 +7,16 @@ const Footer = (props: Props) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center whitespace-nowrap md:col-span-2 space-x-2 mb-4">
               <img
                 src={logo}
                 alt="logo"
-                width={300}
+                width={45}
                 className="cursor-pointer"
               />
+              <h2 className="text-2xl font-bold text-gray-300">
+                MIG <span className="text-blue-600">Cleaning Services</span>
+              </h2>
             </div>
             <p className="text-gray-300">
               Professional, eco-friendly cleaning services for homes,

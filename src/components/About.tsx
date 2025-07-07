@@ -7,21 +7,20 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* TEXT SECTION */}
           <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl text-center md:text-4xl font-bold text-gray-900">
               About{" "}
               <span className="text-orange-600">MIG Cleaning Services</span>
             </h2>
-            <p>
-              Our purpose is simple — to create cleaner, healthier, and more
+            <p className="px-2 md:px-0">
+              Our purpose is simply to create cleaner, healthier, and more
               sustainable environments across Nigeria. Through a combination of
               professionalism, eco-conscious practices, and tailored cleaning
               solutions, we help families, businesses, and institutions maintain
-              safe, organized spaces they can trust. Our team doesn’t just clean
-              — we empower communities and elevate standards.
+              safe, organized spaces they can trust.
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <ShieldCheck className="text-orange-600 w-6 h-6 mt-1" />
+                <ShieldCheck className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800">
                     Professional Standards
@@ -35,7 +34,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Leaf className="text-orange-600 w-6 h-6 mt-1" />
+                <Leaf className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800">
                     Eco-Conscious Practices
@@ -48,7 +47,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Users className="text-orange-600 w-6 h-6 mt-1" />
+                <Users className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800">
                     People-Driven Impact
@@ -61,7 +60,7 @@ export default function About() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Building2 className="text-orange-600 w-6 h-6 mt-1" />
+                <Building2 className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800">
                     Tailored for Every Space
