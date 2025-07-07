@@ -14,7 +14,7 @@ const Footer = (props: Props) => {
                 width={45}
                 className="cursor-pointer"
               />
-              <h2 className="text-2xl font-bold text-gray-300">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-300">
                 MIG <span className="text-blue-600">Cleaning Services</span>
               </h2>
             </div>

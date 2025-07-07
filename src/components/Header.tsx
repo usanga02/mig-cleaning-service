@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <img src={logo} alt="logo" width={40} className="cursor-pointer" />
-            <h2 className="text-2xl font-bold text-gray-900">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
               MIG <span className="text-blue-600">Cleaning Services</span>
             </h2>
           </div>
