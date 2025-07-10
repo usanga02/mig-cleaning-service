@@ -1,4 +1,5 @@
 import { ShieldCheck, Users, Leaf, Building2 } from "lucide-react";
+import cleaner from "../assets/7-small.jpg";
 
 export default function About() {
   return (
@@ -78,9 +79,9 @@ export default function About() {
           <div className="relative">
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-orange-100 rounded-full z-0"></div>
             <img
-              src="https://images.unsplash.com/photo-1608012075343-25226e3099f0?ixid=M3w3MjUzNDh8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBjbGVhbmluZyUyMHRlYW0lMjBzdGFmZiUyMHVuaWZvcm18ZW58MHx8fHwxNzUxMjg0NTQxfDA&ixlib=rb-4.1.0&fit=fillmax&h=600&w=800"
+              src={cleaner}
               alt="Professional cleaning team member"
-              className="rounded-lg shadow-xl relative z-10"
+              className="rounded-lg h-full object-cover shadow-xl relative z-10"
             />
           </div>
         </div>

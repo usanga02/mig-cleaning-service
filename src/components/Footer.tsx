@@ -11,12 +11,19 @@ const Footer = (props: Props) => {
               <img
                 src={logo}
                 alt="logo"
-                width={45}
+                width={50}
                 className="cursor-pointer"
               />
-              <h2 className="text-xl md:text-2xl font-bold text-gray-300">
-                MIG <span className="text-blue-600">Cleaning Services</span>
-              </h2>
+              <div className="relative flex flex-col justify-center">
+                <h2 className="absolute text-sm md:text-lg -top-4 -left-2 text-slate-400 leading-none font-bold">
+                  MIG
+                </h2>
+                <div className="absolute -top-1 -left-3">
+                  <span className="text-[6px] whitespace-nowrap uppercase font-bold text-slate-600">
+                    Cleaning Services
+                  </span>
+                </div>
+              </div>
             </div>
             <p className="text-gray-300">
               Professional, eco-friendly cleaning services for homes,

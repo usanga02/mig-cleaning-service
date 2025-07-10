@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import team from "../assets/1.jpg";
 
 export default function Hero() {
   return (
@@ -43,7 +44,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1570722288327-f999815374bd"
+              src={team}
               alt="Professional cleaning"
               className="rounded-lg shadow-xl"
             />

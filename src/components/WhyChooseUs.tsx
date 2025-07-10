@@ -1,4 +1,6 @@
 import { CheckCircle } from "lucide-react";
+import onboarding from "../assets/19.jpg";
+import vaccumCleaner from "../assets/11.jpg";
 
 const WhyChooseUs = () => {
   return (
@@ -52,14 +54,14 @@ const WhyChooseUs = () => {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1646929996390-2c1e83316525?ixid=M3w3MjUzNDh8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBjbGVhbmluZyUyMHNlcnZpY2UlMjBob3VzZSUyMGtpdGNoZW4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NTEyODQxOTJ8MA&ixlib=rb-4.1.0&fit=fillmax&h=800&w=1200"
+              src={onboarding}
               alt="Clean kitchen sink"
               className="rounded-lg shadow-md"
             />
             <img
-              src="https://images.unsplash.com/photo-1722153151852-c2c1a61e98c9?ixid=M3w3MjUzNDh8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBjbGVhbmluZyUyMHNlcnZpY2UlMjBob3VzZSUyMGtpdGNoZW4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NTEyODQxOTJ8MA&ixlib=rb-4.1.0&fit=fillmax&h=800&w=1200"
+              src={vaccumCleaner}
               alt="Clean bathroom"
-              className="rounded-lg shadow-md mt-8"
+              className="rounded-lg shadow-md mt-10"
             />
           </div>
         </div>
