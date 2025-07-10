@@ -13,10 +13,10 @@ export default function Header() {
           <div className="flex items-center space-x-2">
             <img src={logo} alt="logo" width={50} className="cursor-pointer" />
             <div className="relative flex flex-col justify-center">
-              <h2 className="absolute text-sm md:text-lg -top-4 -left-2 text-blue-900 leading-none font-bold">
+              <h2 className="absolute text-base md:text-lg -top-4 -left-2 text-blue-900 leading-none font-bold">
                 MIG
               </h2>
-              <div className="absolute -top-1 -left-3">
+              <div className="absolute -top-2 md:-top-1 -left-3">
                 <span className="text-[6px] whitespace-nowrap uppercase font-bold text-blue-600">
                   Cleaning Services
                 </span>
@@ -69,10 +69,17 @@ export default function Header() {
       >
         <div className="flex justify-between p-4">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="logo" width={40} className="cursor-pointer" />
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-              MIG <span className="text-blue-600">Cleaning Services</span>
-            </h2>
+            <img src={logo} alt="logo" width={50} className="cursor-pointer" />
+            <div className="relative flex flex-col justify-center">
+              <h2 className="absolute text-base md:text-lg -top-4 -left-2 text-blue-900 leading-none font-bold">
+                MIG
+              </h2>
+              <div className="absolute -top-2 md:-top-1 -left-3">
+                <span className="text-[6px] whitespace-nowrap uppercase font-bold text-blue-600">
+                  Cleaning Services
+                </span>
+              </div>
+            </div>
           </div>
           <button onClick={() => setIsMenuOpen(false)}>
             <X className="w-6 h-6 mt-1 mr-1 text-gray-700" />

@@ -15,10 +15,10 @@ const Footer = (props: Props) => {
                 className="cursor-pointer"
               />
               <div className="relative flex flex-col justify-center">
-                <h2 className="absolute text-sm md:text-lg -top-4 -left-2 text-slate-400 leading-none font-bold">
+                <h2 className="absolute text-base md:text-lg -top-4 -left-2 text-slate-400 leading-none font-bold">
                   MIG
                 </h2>
-                <div className="absolute -top-1 -left-3">
+                <div className="absolute -top-2 md:-top-1 -left-3">
                   <span className="text-[6px] whitespace-nowrap uppercase font-bold text-slate-600">
                     Cleaning Services
                   </span>
