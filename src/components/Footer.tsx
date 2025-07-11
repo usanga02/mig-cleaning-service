@@ -1,4 +1,7 @@
+import { Instagram, Linkedin, Twitter } from "lucide-react";
 import logo from "../assets/Borcelle_clean.png";
+import { Github } from "lucide-react";
+import { Facebook } from "lucide-react";
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -46,6 +49,44 @@ const Footer = (props: Props) => {
               <li>migcleaningserviices@gmail.com</li>
               <li>No. 4 Biskra Street, Wuse Zone 4</li>
             </ul>
+
+            <div className="flex space-x-4 text-gray-300 mt-4">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Twitter className="w-5 h-5 hover:text-slate-600 transition" />
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="w-5 h-5 hover:text-slate-600 transition" />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-5 h-5 hover:text-slate-600 transition" />
+              </a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook className="w-5 h-5 hover:text-slate-600 transition" />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="w-5 h-5 hover:text-slate-600 transition" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
