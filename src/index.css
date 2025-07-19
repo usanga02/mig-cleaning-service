@@ -1,4 +1,8 @@
-@tailwind  base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+.Toastify__toast {
+  min-width: 400px; /* default is ~320px */
+  max-width: 600px; /* optional */
+}

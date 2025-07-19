@@ -10,8 +10,11 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-2">
-            <img src={logo} alt="logo" width={50} className="cursor-pointer" />
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center cursor-pointer space-x-2"
+          >
+            <img src={logo} alt="logo" width={50} />
             <div className="relative flex flex-col justify-center">
               <h2 className="absolute text-base md:text-lg -top-4 -left-2 text-blue-900 leading-none font-bold">
                 MIG

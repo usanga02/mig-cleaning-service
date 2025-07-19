@@ -6,10 +6,12 @@ import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
+      <ToastContainer position="top-right" autoClose={3000} />
       {/* Header */}
       <Header />
 

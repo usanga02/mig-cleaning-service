@@ -11,12 +11,7 @@ const Footer = (props: Props) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center whitespace-nowrap md:col-span-2 space-x-2 mb-4">
-              <img
-                src={logo}
-                alt="logo"
-                width={50}
-                className="cursor-pointer"
-              />
+              <img src={logo} alt="logo" width={50} />
               <div className="relative flex flex-col justify-center">
                 <h2 className="absolute text-base md:text-lg -top-4 -left-2 text-slate-400 leading-none font-bold">
                   MIG
