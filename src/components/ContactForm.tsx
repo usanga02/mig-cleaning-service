@@ -26,6 +26,7 @@ const ContactForm = () => {
         </div>
       );
     } catch (error: any) {
+      console.log(error);
       toast.error(
         <div>
           <strong>Something went wrong</strong>
