@@ -1,7 +1,29 @@
 import { ShieldCheck, Users, Leaf, Building2 } from "lucide-react";
 import cleaner from "../assets/7-small.jpg";
+import ListCard from "./ui/listCard";
 
 export default function About() {
+  const abouts = [
+    {
+      title: "Eco-Conscious Practices",
+      icon: <Leaf className="h-6 w-6 text-orange-600" />,
+      description:
+        "Our cleaning methods include safe, eco-friendly products and green equipment to protect your home and our planet.",
+    },
+    {
+      title: "People-Driven Impact",
+      icon: <Users className="h-6 w-6 text-orange-600" />,
+      description:
+        "We empower communities by creating jobs, upskilling talents, and supporting national development.",
+    },
+    {
+      title: "Tailored for Every Space",
+      icon: <Building2 className="h-6 w-6 text-orange-600" />,
+      description:
+        "Whether you're a household, a business, or an institution, we deliver customized cleaning solutions with precision.",
+    },
+  ];
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,58 +42,9 @@ export default function About() {
               safe, organized spaces they can trust.
             </p>
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <ShieldCheck className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800">
-                    Professional Standards
-                  </h4>
-                  <p className="text-gray-600 text-base">
-                    We are committed to cleaner, healthier, and sustainable
-                    environments across Nigeria with strict professionalism and
-                    standards.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <Leaf className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800">
-                    Eco-Conscious Practices
-                  </h4>
-                  <p className="text-gray-600 text-base">
-                    Our cleaning methods include safe, eco-friendly products and
-                    green equipment to protect your home and our planet.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <Users className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800">
-                    People-Driven Impact
-                  </h4>
-                  <p className="text-gray-600 text-base">
-                    We empower communities by creating jobs, upskilling talents,
-                    and supporting national development.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <Building2 className="text-orange-600 w-6 h-6 md:w-8 md:h-8 mt-1" />
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800">
-                    Tailored for Every Space
-                  </h4>
-                  <p className="text-gray-600 text-base">
-                    Whether you're a household, a business, or an institution,
-                    we deliver customized cleaning solutions with precision.
-                  </p>
-                </div>
-              </div>
+              {abouts.map((about, index) => (
+                <ListCard {...about} key={index} />
+              ))}
             </div>
           </div>
 

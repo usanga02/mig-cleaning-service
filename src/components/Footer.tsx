@@ -1,7 +1,6 @@
-import { Instagram, Linkedin, Twitter } from "lucide-react";
+import { FaFacebookF, FaTwitter, FaTiktok } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 import logo from "../assets/Borcelle_clean.png";
-import { Github } from "lucide-react";
-import { Facebook } from "lucide-react";
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -51,35 +50,28 @@ const Footer = (props: Props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twitter className="w-5 h-5 hover:text-slate-600 transition" />
+                <FaTwitter className="w-5 h-5 hover:text-slate-600 transition" />
               </a>
               <a
-                href="https://github.com"
+                href="https://www.tiktok.com/@maryamgwarzo24?_t=ZM-8yA6asn7h60&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github className="w-5 h-5 hover:text-slate-600 transition" />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-5 h-5 hover:text-slate-600 transition" />
+                <FaTiktok className="w-5 h-5 hover:text-slate-600 transition" />
               </a>
               <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Facebook className="w-5 h-5 hover:text-slate-600 transition" />
+                <FaFacebookF className="w-5 h-5 hover:text-slate-600 transition" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/migcleaningservice?igsh=YzljYTk1ODg3Zg=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Instagram className="w-5 h-5 hover:text-slate-600 transition" />
+                <RiInstagramFill className="w-5 h-5 hover:text-slate-600 transition" />
               </a>
             </div>
           </div>
